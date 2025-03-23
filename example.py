@@ -1,6 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-from crypto_trading_system import CryptoTradingSystem
+from public.python.crypto_trading_system import CryptoTradingSystem
 
 # データの読み込み
 df = pd.read_csv('/home/ubuntu/upload/df.csv')
